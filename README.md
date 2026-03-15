@@ -94,3 +94,4 @@ This project is part of the [ExtensionChecker organization](https://github.com/e
 ## License
 
 MIT — see [LICENSE](LICENSE) for details.
+
