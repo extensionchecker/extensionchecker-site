@@ -150,11 +150,28 @@ h3 {
   display: none;
 }
 
+/* ===== Inline icon utility ===== */
+.icon-inline {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  flex-shrink: 0;
+  fill: currentColor;
+}
+
+.link-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+}
+
 /* ===== Buttons ===== */
 .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 0.4em;
   min-height: 48px;
   padding: 0 var(--space-lg);
   border: none;
@@ -702,7 +719,9 @@ h3 {
 }
 
 .oss-card__link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
   margin-top: var(--space-md);
   color: var(--accent);
   font-size: 0.9rem;

@@ -1,4 +1,5 @@
 import { siteLinks } from '../constants/siteLinks';
+import { GitHubMark } from './icons';
 
 const pathCards = [
   {
@@ -44,7 +45,8 @@ export function OpenSourceSection() {
               <span className="oss-card__icon" aria-hidden="true">{card.icon}</span>
               <h3>{card.title}</h3>
               <p>{card.text}</p>
-              <a href={card.link} target="_blank" rel="noreferrer" className="oss-card__link">
+              <a href={card.link} target="_blank" rel="noreferrer" className="oss-card__link link-with-icon">
+                <GitHubMark className="icon-inline" />
                 {card.linkLabel} &rarr;
               </a>
             </article>

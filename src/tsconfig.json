@@ -15,7 +15,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vitest/globals"],
+    "jsxImportSource": "react",
+    "types": ["vitest/globals", "react", "react-dom"],
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true
   },

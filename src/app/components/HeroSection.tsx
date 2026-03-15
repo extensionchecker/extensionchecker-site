@@ -1,4 +1,5 @@
 import { siteLinks } from '../constants/siteLinks';
+import { GitHubMark, ScanSearch } from './icons';
 
 export function HeroSection() {
   return (
@@ -18,9 +19,11 @@ export function HeroSection() {
           </p>
           <div className="hero__actions">
             <a className="button button--primary button--lg" href={siteLinks.app} target="_blank" rel="noreferrer">
+              <ScanSearch className="icon-inline" />
               Scan an extension now
             </a>
             <a className="button button--secondary" href={siteLinks.github} target="_blank" rel="noreferrer">
+              <GitHubMark className="icon-inline" />
               View on GitHub
             </a>
           </div>
