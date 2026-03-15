@@ -11,6 +11,13 @@ updates:
       dev-dependencies:
         dependency-type: "development"
         update-types: ["minor", "patch"]
+    ignore:
+      # eslint 10.x dropped before eslint-plugin-react-hooks supports it.
+      # Remove this block once react-hooks ships a stable eslint 10 peer.
+      - dependency-name: "eslint"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@eslint/js"
+        update-types: ["version-update:semver-major"]
     commit-message:
       prefix: "deps"
       prefix-development: "deps(dev)"
