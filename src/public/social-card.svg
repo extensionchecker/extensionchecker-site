@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ExtensionChecker</title>
+  <desc id="desc">A social preview card for ExtensionChecker.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081123"/>
+      <stop offset="100%" stop-color="#132754"/>
+    </linearGradient>
+    <linearGradient id="button" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4678ff"/>
+      <stop offset="100%" stop-color="#6b8fff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="165" cy="130" r="170" fill="#4678ff" fill-opacity="0.12"/>
+  <circle cx="1035" cy="540" r="210" fill="#7ad87a" fill-opacity="0.1"/>
+  <rect x="72" y="62" width="1056" height="506" rx="28" fill="#0b1731" fill-opacity="0.86" stroke="#5878d9" stroke-opacity="0.36"/>
+  <g transform="translate(120 100)">
+    <g transform="scale(1.5)">
+      <path d="M88 16H72c0-8.8-7.2-16-16-16S40 7.2 40 16H24c-4.4 0-8 3.6-8 8v16c-8.8 0-16 7.2-16 16s7.2 16 16 16v16c0 4.4 3.6 8 8 8h16c0-8.8 7.2-16 16-16s16 7.2 16 16h16c4.4 0 8-3.6 8-8V72c8.8 0 16-7.2 16-16s-7.2-16-16-16V24c0-4.4-3.6-8-8-8z" fill="#6b7280"/>
+      <circle cx="30" cy="106" r="22" fill="#4caf50"/>
+      <path d="M21 106l6 6 12-12" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="98" cy="106" r="22" fill="#f44336"/>
+      <path d="M89 97l18 18M107 97l-18 18" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <text x="350" y="200" fill="#edf2ff" font-family="'Inter', 'Segoe UI', sans-serif" font-size="72" font-weight="800">ExtensionChecker</text>
+  <text x="120" y="308" fill="#b7c4e9" font-family="'Inter', 'Segoe UI', sans-serif" font-size="34">
+    Know what an extension can access before you install it.
+  </text>
+  <text x="120" y="362" fill="#91a0c7" font-family="'Inter', 'Segoe UI', sans-serif" font-size="28">
+    Free, open source, MIT licensed. Fork it, self-host it, build on it.
+  </text>
+  <rect x="120" y="430" width="310" height="76" rx="18" fill="url(#button)"/>
+  <text x="162" y="478" fill="#f8fbff" font-family="'Inter', 'Segoe UI', sans-serif" font-size="32" font-weight="700">Try the scanner</text>
+</svg>

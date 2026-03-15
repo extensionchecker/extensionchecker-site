@@ -1,0 +1,3 @@
+name = "extensionchecker-site"
+pages_build_output_dir = "src/dist"
+compatibility_date = "2026-03-15"
