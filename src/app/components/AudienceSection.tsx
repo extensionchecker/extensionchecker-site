@@ -31,7 +31,7 @@ const audiences = [
   },
 ] as const;
 
-export function AudienceSection(): JSX.Element {
+export function AudienceSection() {
   return (
     <section className="audience-section">
       <div className="audience-section__inner">

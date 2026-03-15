@@ -16,7 +16,7 @@ const problemCards = [
   },
 ] as const;
 
-export function ProblemSection(): JSX.Element {
+export function ProblemSection() {
   return (
     <section className="problem-section">
       <div className="problem-section__bg" aria-hidden="true" />

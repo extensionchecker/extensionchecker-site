@@ -1,6 +1,6 @@
 import { siteLinks } from '../constants/siteLinks';
 
-export function HeroSection(): JSX.Element {
+export function HeroSection() {
   return (
     <section className="hero">
       <div className="hero__bg" aria-hidden="true" />

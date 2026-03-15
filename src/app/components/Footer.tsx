@@ -2,7 +2,7 @@ interface FooterProps {
   year: number;
 }
 
-export function Footer({ year }: FooterProps): JSX.Element {
+export function Footer({ year }: FooterProps) {
   return (
     <footer className="site-footer">
       <p>&copy; {year} ExtensionChecker</p>

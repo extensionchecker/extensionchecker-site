@@ -26,7 +26,7 @@ const faqs = [
   },
 ] as const;
 
-export function FaqList(): JSX.Element {
+export function FaqList() {
   return (
     <div className="faq-list">
       {faqs.map((item) => (

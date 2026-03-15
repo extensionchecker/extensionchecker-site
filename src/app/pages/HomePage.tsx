@@ -7,7 +7,7 @@ import { OpenSourceSection } from '../components/OpenSourceSection';
 import { ProblemSection } from '../components/ProblemSection';
 import { TrustStrip } from '../components/TrustStrip';
 
-export function HomePage(): JSX.Element {
+export function HomePage() {
   return (
     <>
       <HeroSection />

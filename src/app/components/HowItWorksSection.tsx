@@ -13,7 +13,7 @@ const steps = [
   },
 ] as const;
 
-export function HowItWorksSection(): JSX.Element {
+export function HowItWorksSection() {
   return (
     <section className="how-section">
       <div className="how-section__inner">

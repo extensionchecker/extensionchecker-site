@@ -1,4 +1,4 @@
-export function FaqIntro(): JSX.Element {
+export function FaqIntro() {
   return (
     <section className="content-section">
       <div className="section-heading">

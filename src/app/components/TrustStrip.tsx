@@ -10,7 +10,7 @@ const browsers = [
  * A horizontal strip of browser icons.
  * Sits between the hero and the first content section for social proof.
  */
-export function TrustStrip(): JSX.Element {
+export function TrustStrip() {
   return (
     <section className="trust-strip">
       <div className="trust-strip__inner">

@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export function LogoMark(props: SVGProps<SVGSVGElement>): JSX.Element {
+export function LogoMark(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 128 128" aria-hidden="true" {...props}>
       <path d="M88 16H72c0-8.8-7.2-16-16-16S40 7.2 40 16H24c-4.4 0-8 3.6-8 8v16c-8.8 0-16 7.2-16 16s7.2 16 16 16v16c0 4.4 3.6 8 8 8h16c0-8.8 7.2-16 16-16s16 7.2 16 16h16c4.4 0 8-3.6 8-8V72c8.8 0 16-7.2 16-16s-7.2-16-16-16V24c0-4.4-3.6-8-8-8z" fill="currentColor" opacity="0.7"/>
@@ -12,7 +12,7 @@ export function LogoMark(props: SVGProps<SVGSVGElement>): JSX.Element {
   );
 }
 
-export function ThemeSun(props: SVGProps<SVGSVGElement>): JSX.Element {
+export function ThemeSun(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
       <circle cx="12" cy="12" r="4" />
@@ -21,7 +21,7 @@ export function ThemeSun(props: SVGProps<SVGSVGElement>): JSX.Element {
   );
 }
 
-export function ThemeMoon(props: SVGProps<SVGSVGElement>): JSX.Element {
+export function ThemeMoon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
       <path d="M20 14.2A8 8 0 1 1 9.8 4 6.5 6.5 0 0 0 20 14.2Z" />
@@ -29,7 +29,7 @@ export function ThemeMoon(props: SVGProps<SVGSVGElement>): JSX.Element {
   );
 }
 
-export function ThemeSystem(props: SVGProps<SVGSVGElement>): JSX.Element {
+export function ThemeSystem(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
       <rect x="3" y="4" width="18" height="12" rx="2" />

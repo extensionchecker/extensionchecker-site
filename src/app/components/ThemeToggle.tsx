@@ -14,7 +14,7 @@ const iconMap = {
   dark: { Icon: ThemeMoon, label: 'Theme: dark (click to switch to system)' },
 } as const;
 
-export function ThemeToggle({ preference, onChange }: ThemeToggleProps): JSX.Element {
+export function ThemeToggle({ preference, onChange }: ThemeToggleProps) {
   const { Icon, label } = iconMap[preference];
   const next = cycle[(cycle.indexOf(preference) + 1) % cycle.length]!;
 

@@ -1,6 +1,6 @@
 import { siteLinks } from '../constants/siteLinks';
 
-export function CtaBanner(): JSX.Element {
+export function CtaBanner() {
   return (
     <section className="cta-banner">
       <div className="cta-banner__inner">

@@ -2,7 +2,7 @@
  * A decorative browser-frame mockup showing the ExtensionChecker app UI.
  * Used in the hero section to give visitors a preview of the product.
  */
-export function DeviceMockup(): JSX.Element {
+export function DeviceMockup() {
   return (
     <div className="device-mockup" aria-hidden="true">
       <div className="device-mockup__browser">

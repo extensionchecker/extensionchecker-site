@@ -22,7 +22,7 @@ interface MarkdownRendererProps {
   content: string;
 }
 
-export function MarkdownRenderer({ content }: MarkdownRendererProps): JSX.Element {
+export function MarkdownRenderer({ content }: MarkdownRendererProps) {
   const processed = transformAdmonitions(content);
 
   return (

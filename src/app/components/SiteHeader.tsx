@@ -8,7 +8,7 @@ interface SiteHeaderProps {
   onThemeChange: (preference: ThemePreference) => void;
 }
 
-export function SiteHeader({ preference, onThemeChange }: SiteHeaderProps): JSX.Element {
+export function SiteHeader({ preference, onThemeChange }: SiteHeaderProps) {
   return (
     <div className="site-header-wrapper">
       <header className="site-header">

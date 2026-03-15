@@ -24,7 +24,7 @@ const pathCards = [
   },
 ] as const;
 
-export function OpenSourceSection(): JSX.Element {
+export function OpenSourceSection() {
   return (
     <section className="oss-section">
       <div className="oss-section__bg" aria-hidden="true" />

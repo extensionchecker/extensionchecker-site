@@ -6,7 +6,7 @@ interface AppShellProps {
   children: ReactNode;
 }
 
-export function AppShell({ children }: AppShellProps): JSX.Element {
+export function AppShell({ children }: AppShellProps) {
   const { preference, setPreference } = useThemePreference();
 
   return (
